@@ -1,0 +1,90 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thiago Pelizoni
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modelo de Artigo utilizado em minha pós-graduação em Engenharia de Software na Universidade São Judas Tadeu
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt, a4paper]{article}				
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}	
+\usepackage{graphicx,color}
+\usepackage[left=2.0cm,top=2.5cm,right=2.0cm,bottom=2.0cm]{geometry}
+\usepackage{enumerate}
+\usepackage{epigraph}
+\usepackage{abntcite}
+
+% Título do trabalho
+% O título deve ser curto, claro e conciso. Um bom título descreve o conteúdo do artigo
+\title{Titulo do Artigo}
+
+% Autor
+\author{Seu nome}
+
+\date{2013}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Faz a criação do título do documento
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Resumo: Resume os principais aspectos do artigo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+Um bom resumo deve conter: Contextualização, Lacuna, Proposta, Metodologia, Resultados e Conclusão.
+
+\begin{itemize}
+	\item Usar o tempo Passado sempre que possível;
+	\item Usar voz ativa preferencialmente;
+	\item Ser conciso e utilizar frases completas
+\end{itemize}
+
+\end{abstract}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Introdução: Descreve porquê o trabalho foi feito
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introdução}
+\begin{enumerate}
+	\item \textit{Contextualização}: Apresentar o campo de pesquisa e mostrar a importância da área principal, os prazos e os processos familiares;
+	\item \textit{Declare a Lacuna}: Perguntas abertas, restrições e limitações;
+	\item \textit{Mostrar o Estado da Arte}: Evidenciar recentes pesquisas e descobertas;
+	\item \textit{Afirmar a importância de seu estudo}: Implicações evidenciando e/ou aplicações;
+	\item \textit{Proposta}: Descrever a proposta do artigo com frases como:
+	\begin{itemize}
+		\item No trabalho aqui relatado ...
+		\item Neste trabalho, as características detalhadas do ...
+	\end{itemize}
+\end{enumerate}
+
+As informações no texto devem fluir de um geral para algo específico, chegando ao fim. Citar autores afim de indicar onde suas ideias vieram.
+
+Eis um exemplo de citação\cite[p. 215]{pressman}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Metodologia ou Materiais e Métodos: Descreve como o trabalho foi feito
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Metodologia}
+Descrever como o trabalho foi feito.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Resultados: O que foi observado?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Resultados}
+Resultados, o que foi observado.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 4. Considerações finais - o que se pode concluir dos resultados?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusão}
+Considerações finais, o que se pode concluir dos resultados?
+
+% Faz a criação das referências bibliográficas
+\bibliography{Bibliografia}
+
+\end{document}
